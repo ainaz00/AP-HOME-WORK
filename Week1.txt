@@ -1,0 +1,149 @@
+3.10 Exercises
+
+1.  No .
+2.  No .
+3.  Yes .
+4.  It’s only used for completeness and doesn’t make any difference to original operand .
+5. 
+  *, //, /, %
+     + ,  -
+        =
+     6.
+	(a)  x
+	(b)  x
+	(c)  2
+	(d)  x + 1
+	(e)  we can only concatenate str to str ( not int to str )
+	(f)   3
+
+    7.	
+	(a)   7
+	(b)   0.4
+	(c)   0
+	(d)   2.5
+	(e)   2
+	(f)    -6
+	(g)   7.0
+	(h)   0.4
+	(i)    2.5
+	(j)   -1.0
+	(k)  7.0
+	(l)   0.4
+	(m) 2.5
+	(n)  2.5
+	(o)  0.8
+	(p)  0.8
+	(q)  0.8
+	(r)   0.8
+	(s)  5.0
+	(t)   5.0
+	(u)  5.0
+	(v)  5.0
+
+     8. “ # “ is used for commenting . So nothing results .
+
+      9.	
+
+	(a)  -14
+	(b)  4
+	(c)  1.0
+	(d)  1
+	(e)   -2.6
+	(f)    -3
+	(g)   8.666666666666666
+	(h)   8
+	(i)     4.0
+	(j)     4
+	(k)    -0.5
+	(l)     -0.5
+	(m)    0.9
+	(n)    0.36363636363636365
+	(o)    6.833333333333333
+	(p)    2.1666666666666665
+	(q)    6.833333333333333
+	(r)     52.5
+
+       10. #
+
+       11. By ending the line
+
+       12. In general , obvious statements don’t need a remark (a comment ). When in doubt, add a remark.
+	
+       13. They explain the purpose of a section of code or why they chose to write a section of code the  way they did. These notes are meant for human readers, not the interpreter.
+       
+       14. Because it is a human that will review and update the program , so your code should be readable and easy to understand.
+
+       15. 
+	• NameError : using a variable that is not defined
+
+	• ValueError : raised when the wrong value is assigned to an object
+
+	• ZeroDivisionError : division by zero (when divisor is 0)
+ 
+	• IndentationError : when the spaces and tabs are not placed properly 
+
+	• OverflowError : when the data type used to store data was not large enough to hold the data
+
+	• SyntaxError : using invalid syntax in code
+ 
+	• TypeError : when the data type of an object in an operation is inappropriate
+
+    
+
+       16.
+	#1 , #2 , #3 : No error occurs
+
+	#4 : Since the division operator has high precedence , its better to create a vriable called "sum" and divide it by 2 . (Logic Error)
+
+	#5 : No error occurs
+
+	#6 : (ZeroDivision Error)
+
+	#7 : The syntax of Python does not allow n1*n2 to appear on the left side of the assignment operator. (Syntax Error)
+	
+	#8 : No error occurs
+
+
+       17.
+	(a)   x += 1
+	(b)   x /= 2
+	(c)   x -= 1
+	(d)   x += y
+	(e)   x -= y + 7
+	(f)    x *= 2
+	(g)   number_of_closed_casesv += 2*ncc
+
+
+       18.
+	3 
+	1
+	Because its an interpreter language which means codes are simultaneously interpreted and executed line by line. 
+	
+
+       19.
+	(a) Because the formula is written before getting the value of r , so the circumference of the circle is calculated with r = 0
+	(b) Writing C = 2*PI*r after getting the radius from the user
+
+
+       20. Write a Python program that gets 2 number and and performs four main operations
+	
+	num1 = float(input("Please enter the first number  : "))
+	num2 = float(input("Please enter the second number : "))
+	add = num1 + num2
+	sub = num1 - num2
+	mul = num1 * num2
+	div = num1 / num2
+	print(add)
+	print(sub)
+	print(mul)
+	print(div)
+
+
+       21. Write a Python program that concatenates 2 strings
+
+	str1 = input("String 1 : ")
+	str2 = input("String 2 : ")
+	str = str1 + str2
+	print("Concatenated two diffrent strings : " , str)
+
+	
